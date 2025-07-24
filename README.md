@@ -15,9 +15,6 @@ Aurix is a full-stack AI-powered virtual assistant that interacts with users usi
 Email: PAV@gmail.com
 Password: 123456
 
-yaml
-Copy
-Edit
 
 ---
 
@@ -53,39 +50,37 @@ Edit
    ```bash
    git clone https://github.com/abrarullahhaqqani/Aurix.git
    cd Aurix
- 2. **Install Dependencies**
+2. **Install Dependencies**
+   ```bash
+   Frontend setup
+   cd frontend
+   npm install
 
-# Frontend setup
-cd frontend
-npm install
+   Backend setup
+   cd ../backend
+   npm install
 
-# Backend setup
-cd ../backend
-npm install
+3. **Setup Environment Variables**
+   ```bash
 
- 3. **Setup Environment Variables**
-
-Create backend/.env and add:
-
-MONGODB_URI=your_mongo_connection_string
-JWT_SECRET=your_jwt_secret
-CLOUDINARY_CLOUD_NAME=your_cloudinary_name
-CLOUDINARY_API_KEY=your_api_key
-CLOUDINARY_API_SECRET=your_api_secret
-
-Create frontend/.env and add:
-
-VITE_API_BASE_URL=http://localhost:5000
+   Create backend/.env and add:
+   MONGODB_URI=your_mongo_connection_string
+   JWT_SECRET=your_jwt_secret
+   CLOUDINARY_CLOUD_NAME=your_cloudinary_name
+   CLOUDINARY_API_KEY=your_api_key
+   CLOUDINARY_API_SECRET=your_api_secret
+   Create frontend/.env and add:
+   VITE_API_BASE_URL=http://localhost:5000
 
 4. **Run the Application**
-   
-# Start backend server
-cd backend
-npm run dev
+   ```bash
+   # Start backend server
+   cd backend
+   npm run dev
 
-# Open a new terminal
-cd frontend
-npm run dev
+   # Open a new terminal
+   cd frontend
+   npm run dev
 
 
 ## 🔮 Future Scope
@@ -104,18 +99,16 @@ npm run dev
    
 ## Contributions are welcome! 🚀
 
-Fork the repository
+1. Fork the repository
 
-Create your branch: git checkout -b feature/your-feature-name
+2. Create your branch: git checkout -b feature/your-feature-name
 
-Commit your changes: git commit -m "Add: Your feature"
+3. Commit your changes: git commit -m "Add: Your feature"
 
-Push to the branch: git push origin feature/your-feature-name
+4. Push to the branch: git push origin feature/your-feature-name
 
-Open a Pull Request
+5. Open a Pull Request
 
-## 📜 License
-MIT License © Abrarullah Haqqani
 
 
 
