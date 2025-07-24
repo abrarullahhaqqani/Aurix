@@ -53,11 +53,8 @@ Edit
    ```bash
    git clone https://github.com/abrarullahhaqqani/Aurix.git
    cd Aurix
-Install Dependencies
+ 2. **Install Dependencies**
 
-bash
-Copy
-Edit
 # Frontend setup
 cd frontend
 npm install
@@ -65,57 +62,47 @@ npm install
 # Backend setup
 cd ../backend
 npm install
-Setup Environment Variables
+
+ 3. **Setup Environment Variables**
 
 Create backend/.env and add:
 
-env
-Copy
-Edit
 MONGODB_URI=your_mongo_connection_string
 JWT_SECRET=your_jwt_secret
-
 CLOUDINARY_CLOUD_NAME=your_cloudinary_name
 CLOUDINARY_API_KEY=your_api_key
 CLOUDINARY_API_SECRET=your_api_secret
+
 Create frontend/.env and add:
 
-env
-Copy
-Edit
 VITE_API_BASE_URL=http://localhost:5000
-Run the Application
 
-bash
-Copy
-Edit
+4. **Run the Application**
+   
 # Start backend server
 cd backend
 npm run dev
-bash
-Copy
-Edit
+
 # Open a new terminal
 cd frontend
 npm run dev
-📸 Screenshots
-(Add your screenshots below)
 
-Home Page	Customization Page
 
-🔮 Future Scope
-🧑‍🤝‍🧑 Group AI Conversations
+## 🔮 Future Scope
 
-🌍 Multi-language AI assistant
+1. 🧑‍🤝‍🧑 Group AI Conversations
 
-🧠 Persistent Assistant Memory
+2. 🌍 Multi-language AI assistant
 
-📊 User analytics and chat history
+3. 🧠 Persistent Assistant Memory
 
-📱 React Native version (mobile app)
+4. 📊 User analytics and chat history
 
-🤝 Contributing
-Contributions are welcome! 🚀
+5. 📱 React Native version (mobile app)
+
+6. 🤝 Contributing
+   
+## Contributions are welcome! 🚀
 
 Fork the repository
 
@@ -127,16 +114,9 @@ Push to the branch: git push origin feature/your-feature-name
 
 Open a Pull Request
 
-📜 License
+## 📜 License
 MIT License © Abrarullah Haqqani
 
-yaml
-Copy
-Edit
-
----
-
-Let me know when you push it — I can help improve visuals with GIFs, badges, or even markdown collapsibles if needed. 🚀
 
 
 
@@ -145,4 +125,3 @@ Let me know when you push it — I can help improve visuals with GIFs, badges, o
 
 
 
-Ask ChatGPT
