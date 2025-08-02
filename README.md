@@ -40,7 +40,7 @@ Password: 123456
 | Authentication   | JWT, bcryptjs               |
 | File Upload      | Multer, Cloudinary          |
 | Database         | MongoDB                     |
-| Deployment       | Render (Backend), Vercel (Frontend) |
+| Deployment       | Render (Backend), Render (Frontend) |
 
 ---
 
